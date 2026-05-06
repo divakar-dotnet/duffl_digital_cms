@@ -1,0 +1,167 @@
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\appsettings.Development.json
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\appsettings.json
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\DufflDigital.Web.staticwebassets.runtime.json
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\DufflDigital.Web.staticwebassets.endpoints.json
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\DufflDigital.Web.exe
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\DufflDigital.Web.deps.json
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\DufflDigital.Web.runtimeconfig.json
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\DufflDigital.Web.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\DufflDigital.Web.pdb
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\Dapper.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\Microsoft.Data.SqlClient.Extensions.Abstractions.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\Microsoft.Data.SqlClient.Internal.Logging.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\cs\Microsoft.Data.SqlClient.resources.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\pl\Microsoft.Data.SqlClient.resources.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\tr\Microsoft.Data.SqlClient.resources.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\DufflDigital_Solution\DufflDigital.Web\obj\Debug\net8.0\DufflDigital.Web.csproj.AssemblyReference.cache
+D:\DufflDigital_Solution\DufflDigital.Web\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\DufflDigital_Solution\DufflDigital.Web\obj\Debug\net8.0\DufflDigital.Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\DufflDigital_Solution\DufflDigital.Web\obj\Debug\net8.0\DufflDigital.Web.AssemblyInfoInputs.cache
+D:\DufflDigital_Solution\DufflDigital.Web\obj\Debug\net8.0\DufflDigital.Web.AssemblyInfo.cs
+D:\DufflDigital_Solution\DufflDigital.Web\obj\Debug\net8.0\DufflDigital.Web.csproj.CoreCompileInputs.cache
+D:\DufflDigital_Solution\DufflDigital.Web\obj\Debug\net8.0\DufflDigital.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\DufflDigital_Solution\DufflDigital.Web\obj\Debug\net8.0\DufflDigital.Web.RazorAssemblyInfo.cache
+D:\DufflDigital_Solution\DufflDigital.Web\obj\Debug\net8.0\DufflDigital.Web.RazorAssemblyInfo.cs
+D:\DufflDigital_Solution\DufflDigital.Web\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\DufflDigital_Solution\DufflDigital.Web\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\DufflDigital_Solution\DufflDigital.Web\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\DufflDigital_Solution\DufflDigital.Web\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\DufflDigital_Solution\DufflDigital.Web\obj\Debug\net8.0\scopedcss\bundle\DufflDigital.Web.styles.css
+D:\DufflDigital_Solution\DufflDigital.Web\obj\Debug\net8.0\scopedcss\projectbundle\DufflDigital.Web.bundle.scp.css
+D:\DufflDigital_Solution\DufflDigital.Web\obj\Debug\net8.0\staticwebassets.build.json
+D:\DufflDigital_Solution\DufflDigital.Web\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\DufflDigital_Solution\DufflDigital.Web\obj\Debug\net8.0\staticwebassets.development.json
+D:\DufflDigital_Solution\DufflDigital.Web\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\DufflDigital_Solution\DufflDigital.Web\obj\Debug\net8.0\swae.build.ex.cache
+D:\DufflDigital_Solution\DufflDigital.Web\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\DufflDigital_Solution\DufflDigital.Web\obj\Debug\net8.0\DufflDig.70FBCC1A.Up2Date
+D:\DufflDigital_Solution\DufflDigital.Web\obj\Debug\net8.0\DufflDigital.Web.dll
+D:\DufflDigital_Solution\DufflDigital.Web\obj\Debug\net8.0\refint\DufflDigital.Web.dll
+D:\DufflDigital_Solution\DufflDigital.Web\obj\Debug\net8.0\DufflDigital.Web.pdb
+D:\DufflDigital_Solution\DufflDigital.Web\obj\Debug\net8.0\DufflDigital.Web.genruntimeconfig.cache
+D:\DufflDigital_Solution\DufflDigital.Web\obj\Debug\net8.0\ref\DufflDigital.Web.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\MailKit.dll
+D:\DufflDigital_Solution\DufflDigital.Web\bin\Debug\net8.0\MimeKit.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\appsettings.Development.json
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\appsettings.json
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\DufflDigital.Web.staticwebassets.endpoints.json
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\DufflDigital.Web.staticwebassets.runtime.json
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\DufflDigital.Web.exe
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\DufflDigital.Web.deps.json
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\DufflDigital.Web.runtimeconfig.json
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\DufflDigital.Web.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\DufflDigital.Web.pdb
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\Dapper.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\MailKit.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\Microsoft.Data.SqlClient.Extensions.Abstractions.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\Microsoft.Data.SqlClient.Internal.Logging.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\MimeKit.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\cs\Microsoft.Data.SqlClient.resources.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\pl\Microsoft.Data.SqlClient.resources.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\tr\Microsoft.Data.SqlClient.resources.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\DufflDigital.Web.csproj.AssemblyReference.cache
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\DufflDigital.Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\DufflDigital.Web.AssemblyInfoInputs.cache
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\DufflDigital.Web.AssemblyInfo.cs
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\DufflDigital.Web.csproj.CoreCompileInputs.cache
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\DufflDigital.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\DufflDigital.Web.RazorAssemblyInfo.cache
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\DufflDigital.Web.RazorAssemblyInfo.cs
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\DufflDigital.Web.sourcelink.json
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\scopedcss\bundle\DufflDigital.Web.styles.css
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\scopedcss\projectbundle\DufflDigital.Web.bundle.scp.css
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\staticwebassets.build.json
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\staticwebassets.development.json
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\swae.build.ex.cache
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\DufflDig.70FBCC1A.Up2Date
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\DufflDigital.Web.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\refint\DufflDigital.Web.dll
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\DufflDigital.Web.pdb
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\DufflDigital.Web.genruntimeconfig.cache
+D:\Duffl Live\duffl_digital_cms\DufflDigital.Web\obj\Debug\net8.0\ref\DufflDigital.Web.dll

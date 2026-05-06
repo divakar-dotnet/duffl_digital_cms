@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Duffl Live\\duffl_digital_cms\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13E6B40D-AB6F-9A0E-4081-020252017CCA}|DufflDigital.Web\\DufflDigital.Web.csproj|d:\\duffl live\\duffl_digital_cms\\duffldigital.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13E6B40D-AB6F-9A0E-4081-020252017CCA}|DufflDigital.Web\\DufflDigital.Web.csproj|solutionrelative:duffldigital.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Duffl Live\\duffl_digital_cms\\DufflDigital.Web\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "DufflDigital.Web\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Duffl Live\\duffl_digital_cms\\DufflDigital.Web\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "DufflDigital.Web\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T07:34:28.271Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

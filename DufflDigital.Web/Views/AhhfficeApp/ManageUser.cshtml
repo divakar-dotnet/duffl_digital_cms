@@ -1,0 +1,449 @@
+﻿@model DufflDigital.Web.Models.AhhfficeUserFormViewModel
+@{
+    Layout = null;
+    bool isEdit = Model.User.UID > 0;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Duffl | @(isEdit ? "Edit User" : "Add User")</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <style>
+        body { background-color: #f8f9fa; }
+
+        .sidebar {
+            min-height: 100vh;
+            width: 250px;
+            background-color: #212529;
+            color: white;
+            position: fixed;
+            z-index: 100;
+        }
+
+        .main-content { margin-left: 250px; padding: 20px; }
+
+        .nav-link { color: rgba(255,255,255,0.7); transition: 0.3s; }
+        .nav-link:hover  { color: #FFB300; }
+        .nav-link.active { color: #FFB300; font-weight: bold; }
+
+        .form-control:focus,
+        .form-select:focus {
+            border-color: #FFB300;
+            box-shadow: 0 0 0 0.15rem rgba(255,179,0,0.25);
+        }
+
+        .req { color: #dc3545; }
+
+        .field-err {
+            color: #dc3545;
+            font-size: 12px;
+            display: none;
+            margin-top: 3px;
+        }
+
+        .optional-note {
+            font-size: 11px;
+            color: #888;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ── Sidebar ─────────────────────────────────────────── -->
+    <div class="sidebar d-flex flex-column p-3">
+        <h3 class="text-center mb-4">Duffl <span class="fw-light">Admin</span></h3>
+        <ul class="nav nav-pills flex-column mb-auto">
+            <li>
+                <a asp-controller="Dashboard" asp-action="Index" class="nav-link">
+                    <i class="bi bi-speedometer2 me-2"></i> Dashboard
+                </a>
+            </li>
+            <li>
+                <a asp-controller="AhhfficeApp" asp-action="Index"
+                   class="nav-link active">
+                    <i class="bi bi-buildings me-2"></i> Ahhffice App
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link">
+                    <i class="bi bi-gear me-2"></i> Settings
+                </a>
+            </li>
+        </ul>
+        <hr>
+        <a asp-controller="Account" asp-action="Logout"
+           class="btn btn-outline-danger btn-sm w-100">
+            <i class="bi bi-box-arrow-right me-2"></i> Logout
+        </a>
+    </div>
+
+    <!-- ── Main Content ────────────────────────────────────── -->
+    <div class="main-content">
+
+        <!-- Top Bar -->
+        <nav class="navbar mb-4 rounded px-3 bg-white shadow-sm">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 h5 text-secondary fw-bold">
+                    <i class="bi bi-person-plus me-2 text-warning"></i>
+                    @(isEdit ? "Edit User" : "Add New User")
+                </span>
+                <a asp-action="Users" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-arrow-left me-1"></i> Back to Users
+                </a>
+            </div>
+        </nav>
+
+        @if (TempData["ErrorMsg"] != null)
+        {
+            <div class="alert alert-danger py-2 px-3 mb-3" style="font-size:13px;">
+                @TempData["ErrorMsg"]
+            </div>
+        }
+
+        <!-- Form Card -->
+        <div class="card border-0 shadow-sm rounded-4" style="max-width:820px;">
+            <div class="card-body p-5">
+
+                <form asp-action="SaveUser" method="post" id="userForm" novalidate>
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="UID" value="@Model.User.UID" />
+
+                    <div class="row g-3">
+
+                        <!-- Company -->
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold small">
+                                Company <span class="req">*</span>
+                            </label>
+                            <select class="form-select" id="ddlCompany" name="CompanyID">
+                                <option value="">-- Select Company --</option>
+                                @foreach (var c in Model.Companies)
+                                {
+                                    if (Model.User.CompanyID == c.CID)
+                                    {
+                                        <option value="@c.CID" selected="selected">
+                                            @c.CompanyName
+                                        </option>
+                                    }
+                                    else
+                                    {
+                                        <option value="@c.CID">@c.CompanyName</option>
+                                    }
+                                }
+                            </select>
+                            <div class="field-err" id="errCompany">Select company</div>
+                        </div>
+
+                        <!-- Employee — OPTIONAL -->
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold small">
+                                Employee
+                                <span class="optional-note">(optional)</span>
+                            </label>
+                            <select class="form-select" id="ddlEmpID" name="EmpID">
+                                <option value="">-- Select Employee --</option>
+                                @foreach (var emp in Model.Employees)
+                                {
+                                    if (Model.User.EmpID == emp.EmpID)
+                                    {
+                                        <option value="@emp.EmpID" selected="selected">
+                                            @emp.DisplayName
+                                        </option>
+                                    }
+                                    else
+                                    {
+                                        <option value="@emp.EmpID">
+                                            @emp.DisplayName
+                                        </option>
+                                    }
+                                }
+                            </select>
+                            <small class="text-muted" style="font-size:11px;">
+                                Leave blank if no employee exists yet
+                            </small>
+                        </div>
+
+                        <!-- Role -->
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold small">
+                                Role <span class="req">*</span>
+                            </label>
+                            <select class="form-select" id="ddlRole" name="Role">
+                                <option value="">-- Select Role --</option>
+                                @if (Model.User.Role == "Admin")
+                                {
+                                    <option value="Admin" selected="selected">Admin</option>
+                                }
+                                else
+                                {
+                                    <option value="Admin">Admin</option>
+                                }
+                                @if (Model.User.Role == "Super Admin")
+                                {
+                                    <option value="Super Admin" selected="selected">
+                                        Super Admin
+                                    </option>
+                                }
+                                else
+                                {
+                                    <option value="Super Admin">Super Admin</option>
+                                }
+                            </select>
+                            <div class="field-err" id="errRole">Select role</div>
+                        </div>
+
+                        <!-- Username -->
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold small">
+                                Username <span class="req">*</span>
+                            </label>
+                            <input type="text"
+                                   class="form-control"
+                                   id="txtUsername"
+                                   name="Username"
+                                   value="@Model.User.Username"
+                                   autocomplete="off"
+                                   maxlength="100" />
+                            <div class="field-err" id="errUsername">
+                                Enter username
+                            </div>
+                        </div>
+
+                        <!-- Email ID -->
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold small">
+                                Email ID <span class="req">*</span>
+                            </label>
+                            <input type="email"
+                                   class="form-control"
+                                   id="txtEmail"
+                                   name="EmailID"
+                                   value="@Model.User.EmailID"
+                                   autocomplete="off"
+                                   maxlength="200" />
+                            <div class="field-err" id="errEmail">
+                                Enter valid email
+                            </div>
+                        </div>
+
+                        <!-- Mobile No -->
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold small">
+                                Mobile No <span class="req">*</span>
+                            </label>
+                            <input type="text"
+                                   class="form-control"
+                                   id="txtMobile"
+                                   name="MobileNo"
+                                   value="@Model.User.MobileNo"
+                                   autocomplete="off"
+                                   maxlength="10" />
+                            <div class="field-err" id="errMobile">
+                                Enter valid 10-digit mobile number
+                            </div>
+                        </div>
+
+                        <!-- Password -->
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold small">
+                                Password <span class="req">*</span>
+                                @if (isEdit)
+                                {
+                                    <span class="optional-note">
+                                        (leave blank to keep existing)
+                                    </span>
+                                }
+                            </label>
+                            <div class="input-group">
+                                <input type="password"
+                                       class="form-control"
+                                       id="txtPassword"
+                                       name="password"
+                                       value="@Model.User.password"
+                                       autocomplete="new-password"
+                                       maxlength="100" />
+                                <button type="button"
+                                        class="btn btn-outline-secondary"
+                                        id="togglePwd">
+                                    <i class="bi bi-eye" id="eyeIcon"></i>
+                                </button>
+                            </div>
+                            <div class="field-err" id="errPassword">
+                                Enter password
+                            </div>
+                        </div>
+
+                        <!-- Status -->
+                        <div class="col-md-6 d-flex align-items-end pb-1">
+                            <div class="form-check form-switch">
+                                @if (Model.User.Status)
+                                {
+                                    <input class="form-check-input"
+                                           type="checkbox"
+                                           id="chkStatus"
+                                           name="Status"
+                                           value="true"
+                                           checked="checked" />
+                                }
+                                else
+                                {
+                                    <input class="form-check-input"
+                                           type="checkbox"
+                                           id="chkStatus"
+                                           name="Status"
+                                           value="true" />
+                                }
+                                <label class="form-check-label fw-bold small"
+                                       for="chkStatus">
+                                    Active Status
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Footer Buttons -->
+                    <div class="pt-4 border-top mt-4 d-flex gap-2">
+                        <button type="submit"
+                                id="btnSubmit"
+                                class="btn btn-warning text-white fw-bold px-4">
+                            <i class="bi bi-check-lg me-1"></i>
+                            @(isEdit ? "UPDATE USER" : "SAVE USER")
+                        </button>
+                        <a asp-action="Users" class="btn btn-light border px-4">
+                            CANCEL
+                        </a>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        var isEditMode = @(isEdit ? "true" : "false");
+
+        $(document).ready(function () {
+
+            // ── Password eye toggle ───────────────────────────
+            $('#togglePwd').on('click', function () {
+                var inp    = $('#txtPassword');
+                var isPass = inp.attr('type') === 'password';
+                inp.attr('type', isPass ? 'text' : 'password');
+                $('#eyeIcon').toggleClass('bi-eye bi-eye-slash');
+            });
+
+            // ── Company change → reload employee dropdown ─────
+            $('#ddlCompany').on('change', function () {
+                var companyId = $(this).val();
+                var $emp      = $('#ddlEmpID');
+
+                if (!companyId) {
+                    $emp.html(
+                        '<option value="">-- Select Employee --</option>'
+                    );
+                    return;
+                }
+
+                $emp.html('<option value="">Loading...</option>');
+
+                $.getJSON(
+                    '/AhhfficeApp/GetEmployeesByCompany',
+                    { companyId: companyId },
+                    function (data) {
+                        var opts =
+                            '<option value="">-- Select Employee --</option>';
+                        if (data && data.length > 0) {
+                            $.each(data, function (i, emp) {
+                                opts += '<option value="' + emp.empID + '">'
+                                      + emp.displayName
+                                      + '</option>';
+                            });
+                        } else {
+                            opts =
+                                '<option value="">' +
+                                '-- No employees found for this company --' +
+                                '</option>';
+                        }
+                        $emp.html(opts);
+                    }
+                ).fail(function () {
+                    $emp.html(
+                        '<option value="">-- Error loading employees --</option>'
+                    );
+                });
+            });
+
+            // ── Mobile: allow digits only ─────────────────────
+            $('#txtMobile').on('keypress', function (e) {
+                var charCode = e.which;
+                if (charCode < 48 || charCode > 57) {
+                    e.preventDefault();
+                }
+            });
+
+            // ── Form validation ───────────────────────────────
+            $('#userForm').on('submit', function (e) {
+                var valid = true;
+
+                function chk(errId, failCondition) {
+                    var el = document.getElementById(errId);
+                    if (failCondition) {
+                        el.style.display = 'block';
+                        valid = false;
+                    } else {
+                        el.style.display = 'none';
+                    }
+                }
+
+                // Company required
+                chk('errCompany', !$('#ddlCompany').val());
+
+                // Employee is OPTIONAL — no validation
+
+                // Role required
+                chk('errRole', !$('#ddlRole').val());
+
+                // Username required
+                chk('errUsername', !$('#txtUsername').val().trim());
+
+                // Email — RegExp constructor avoids Razor parsing []
+                var emailVal   = $('#txtEmail').val().trim();
+                var emailRegex = new RegExp(
+                    '^[^\\s@@]+@@[^\\s@@]+\\.[^\\s@@]+$'
+                );
+                chk('errEmail', !emailRegex.test(emailVal));
+
+                // Mobile — 10 digits starting with 6-9
+                var mobVal      = $('#txtMobile').val().trim();
+                var mobileRegex = new RegExp('^[6-9][0-9]{9}$');
+                chk('errMobile', !mobileRegex.test(mobVal));
+
+                // Password required on Add only
+                if (!isEditMode) {
+                    chk('errPassword', !$('#txtPassword').val().trim());
+                }
+
+                if (!valid) {
+                    e.preventDefault();
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                } else {
+                    $('#btnSubmit')
+                        .prop('disabled', true)
+                        .html(
+                            '<i class="bi bi-hourglass-split me-1"></i>' +
+                            ' Saving...'
+                        );
+                }
+            });
+
+        }); // end document.ready
+    </script>
+</body>
+</html>
